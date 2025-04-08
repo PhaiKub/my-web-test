@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>welecome to my web page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ส่วนของ Header -->
+  <header>
+    <div class="header-content">
+      <h1 button onclick="changeTheme(0)">私のウェブサイトへようこそ</h1>
+  
+      <!-- Navigation Bar -->
+      <div class="navbar">
+        <button onclick="changeTheme(1)">いち</button>
+        <button onclick="changeTheme(2)">に</button>
+        <button onclick="changeTheme(3)">し</button>
+        <button onclick="changeTheme(4)">ご</button>
+        <button onclick="changeTheme(5)">ろく</button>
+        <button onclick="changeTheme(6)">しち</button>
+        <button onclick="changeTheme(7)">はち</button>
+      </div>
+    </div>
+  </header>
+  
+  <!-- ส่วนของเนื้อหา -->
+  <main class="content">
+    <div class="left-content">
+      <p id="theme-text">Hi! Welcome to my website. This is where I'll be testing some new features and ideas.</p>
+    </div>        
+  
+    <div class="right-content">
+      <img id="main-image" src="" alt="">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

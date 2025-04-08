@@ -1,0 +1,110 @@
+/* ตั้งค่าทั่วไปของ Body */
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/0/1082406.png'); /* เปลี่ยนเป็นที่อยู่ของภาพพื้นหลัง */
+    background-size: cover;       /* ปรับให้รูปพอดีกับหน้าจอ */
+    background-position: inherit;  /* จัดรูปให้อยู่ตรงกลาง */
+    background-attachment: fixed; /* ทำให้รูปไม่เลื่อนตาม */
+  }
+
+  /* ส่วนของ Header */
+  header {
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #131111; /* ขาวโปร่งแสง */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  /* กล่องครอบ header ทั้งข้อความ + ปุ่ม */
+  .header-content {
+    display: flex;
+    justify-content: space-between; /* ให้ h1 อยู่ซ้าย navbar อยู่ขวา */
+    align-items: center;
+    padding: 0px 20px;
+    margin-right: 5px;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    flex: 1;
+    text-align: left;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #131111;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .navbar button:hover {
+    background-color: #000081;
+  }
+  
+  
+  
+  /* ส่วนของเนื้อหาหลัก */
+  main.content {
+    display: flex;
+    justify-content: space-between;  /* ข้อความซ้าย รูปขวา */
+    align-items: center;
+    padding: 50px 25px;
+  }
+  
+  /* เนื้อหาฝั่งซ้าย */
+  .left-content {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  /* รูปภาพฝั่งขวา */
+  .right-content {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* รูปภาพหลัก */
+  #main-image {
+    width: 450px;
+    height: auto;
+    max-width: 450px;
+    width: max-content 450px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s;
+  }
+  .left-content p {
+    font-family: Lato, Helvetica Neue, helvetica, sans-serif;
+    font-size: 2.6rem;
+    line-height: 1.6;
+    transition: color 0.5s ease-in-out;
+  }
+  .veefcv{
+    color: #0081b0;
+    color: #CC3333;
+  }
