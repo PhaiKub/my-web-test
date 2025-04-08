@@ -44,8 +44,8 @@ const themes = [
   {
     bgImage: 'image/4/4bg.jpeg',
     imageUrl: 'image/4/4ma.png',
-    headerColor: '#EEC591',
-    buttonColor: '#EEC591', // สีปุ่มปกติ
+    headerColor: '#CDB79E',
+    buttonColor: '#CDB79E', // สีปุ่มปกติ
     buttonHoverColor: '#9b59b6', // สีปุ่มเมื่อ hover
     fontColor: '#ffffff',
     message: ''
